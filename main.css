@@ -1,10 +1,18 @@
+.container{
+    margin:50px;
+}
+
 body {
-    background-color:#a5e927;
-    font-family: 'Courier','Courier New', Courier, monospace;
+    margin-left: 50px;
+    background-image:url(leaves.png);
+    background-size: cover;
+    font-family: 'Verdana',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    opacity: 0.8;
 }
 
 .todo-wrapper {
-    margin-top: 50px;
+    margin-top: 70px;
     background-color: #fff;
     border-radius: 15px;
     margin-left: auto;
@@ -14,9 +22,14 @@ body {
 }
 
 .todo-wrapper h2 {
-    text-shadow: 1px 1px 2px green,0 0 1em rgb(28, 114, 226),0 0 0.2em rgb(228, 222, 206);
+   /* text-shadow: 1px 1px 2px green,0 0 1em rgb(28, 114, 226),0 0 0.2em rgb(228, 222, 206);*/
     margin: 0;
+    text-shadow: 1px 1px #a37a7a,
+                2px 2px #e2a0a0,
+                3px 3px #c77979;
+    color: black;
 }
+
 
 .todo-wrapper p {
     font-style: italic;
@@ -33,7 +46,6 @@ body {
     padding: 3px;
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
@@ -45,7 +57,7 @@ body {
 
 .todo-wrapper .completed {
     text-decoration: line-through;
-    color: #666;
+    color: rgb(201, 31, 102);
 }
 
 .todo-wrapper .pretty-button {
@@ -63,10 +75,10 @@ body {
     box-shadow: -3px 3px green,
     -1px 1px gold;
 }
-#todo-entry-box{
+/* input{
     box-shadow: -2px 2px ivory,
     -2px 2px ivory;
-}
+}*/
 
 .todo-wrapper .pretty-button:hover {
     cursor: pointer;
